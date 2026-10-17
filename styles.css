@@ -47,3 +47,14 @@ section[id], #dihlatse { scroll-margin-top: 86px; }
 @media(prefers-reduced-motion:reduce) {
   .primary-nav, .menu-toggle span, .archive-card img { transition:none!important; }
 }
+
+.shared-records .archive-heading>p { max-width:620px; }
+.archive-disclaimer-en { display:block; margin-top:8px; font-size:10px; }
+.shared-records .archive-card>a { min-height:260px; display:flex; align-items:center; justify-content:center; }
+.shared-records .archive-card img { aspect-ratio:1/1.05; object-fit:contain; background:#e9e3d6; }
+@media(max-width:860px) {
+  .shared-records .archive-card>a { min-height:210px; }
+}
+@media(max-width:390px) {
+  .shared-records .archive-card>a { min-height:280px; }
+}
