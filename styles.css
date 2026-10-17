@@ -58,3 +58,4 @@ section[id], #dihlatse { scroll-margin-top: 86px; }
 @media(max-width:390px) {
   .shared-records .archive-card>a { min-height:280px; }
 }
+.leader-image .leader-portrait{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 24%;z-index:0}.leader-image:before{z-index:1}.leader-image:after{content:"";position:absolute;inset:50% 0 0;width:auto;height:auto;border:0;border-radius:0;background:linear-gradient(transparent,#102e28d9);z-index:2}.leader-image .image-caption{z-index:3}.archive-card.landscape-record img{aspect-ratio:1.46/1;object-fit:contain;background:#e6dece}.contact-item a{text-decoration:underline;text-decoration-color:#bba780;text-underline-offset:3px}.contact-item a:hover,.contact-item a:focus-visible{color:#a45f3e}
